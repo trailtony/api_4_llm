@@ -1,0 +1,13 @@
+[project]
+name = "api-4-llm"
+version = "0.1.0"
+description = "AI models are powerful tools, and in order to use them securely, you need to control them using an API. This project pretends to show how to write a very simple Python API to control access to a LLM or an AI model."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.115.12",
+    "ollama>=0.4.7",
+    "python-dotenv>=1.1.0",
+    "requests>=2.32.3",
+    "uvicorn>=0.34.0",
+]
